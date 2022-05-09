@@ -1,3 +1,2 @@
-docker build . -t node-example
-docker tag node-example probo/node-example:1.0
+docker build . -t probo/node-example:1.0
 docker push probo/node-example:1.0
