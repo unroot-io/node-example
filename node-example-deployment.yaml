@@ -15,7 +15,7 @@ spec:
         app: node-example
     spec:
       containers:
-      - name: probo/node-example
+      - name: node-example
         image: probo/node-example:latest
         ports:
         - containerPort: 8080
